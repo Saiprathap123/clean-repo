@@ -1,0 +1,85 @@
+# Replit Prompt: Apply Client-Requested Site Changes from PDF
+
+---
+
+## 1. Private Companies Tab (Page) — Updates
+- **Minimum and Compliance Requirements:**
+  - Add the following point:  
+    **• Books should be maintained as per income tax act**
+- **Benefits Tab:**
+  - Add:
+    - **Name of the company will be reserved - Registered Name Advantage in Private Limited**
+    - **Helpful in promotion, branding, marketing**
+
+---
+
+## 2. Public Company Tab (Page)
+- **Under Definition:**
+  - Insert:  
+    *(Public Company Suits Listing Needs; Private Offers Simpler Operations.  
+    Private Company Preferred Unless Public Listing is Planned)*
+- **Minimum Compliance:**
+  - Remove the point about CS requirement.
+- **Compliance Requirements:**
+  - Remove “Board meetings and AGM”.
+  - Add: **Public company compliances are more than private company**
+
+---
+
+## 3. LLP Tab (Page)
+- **Benefits:**
+  - Remove “operational flexibility”.
+  - Add: **registered name advantage**
+- **After Definition:**
+  - Insert:  
+    *“Partnership is preferred for ease doing businesses otherwise LLP is preferable”*
+
+---
+
+## 4. Remove “One Person Company” Tab
+- Delete all navigation links, content, cards, and detail pages for “One Person Company”.
+
+---
+
+## 5. Insert “CHITS FUNDS COMPANY” Tab/Card (After LLP)
+- Add a new service card and page/tab for **CHITS FUNDS COMPANY** immediately after LLP in the services section and navigation.
+- Use a placeholder text/content ("Details coming soon") if you haven't received final info yet; make sure nav and routing are established.
+
+---
+
+## 6. Move Partnership Tab
+- Ensure the **Partnership** service card immediately follows the Chits Funds Company card in the services section and navigation.
+
+---
+
+## 7. GST Tabs
+- Under the GST service/page, add a **GST Notices** registration/tab/page.
+
+---
+
+## 8. License and Registration Tab
+- Remove **MSME registration** from this category (keep only **UDYAM**, as MSME and UDYAM are the same).
+
+---
+
+## 9. More Services Tab (Navigation)
+- Make **Accounting and Tax, Mandatory Filings, and Employee Benefit** top-level tabs within the "More Services" navigation.
+- Move any other services below these main tabs.
+
+---
+
+## 10. Employee Benefits in More Tab
+- **Shift all Employee Benefits registrations** (except “Monthly returns,” PF, ESI, PT, and TDS returns) to the **Licenses and Registration** tab/category.
+- In the "More" tab under Employee Benefits, only retain: **Monthly returns, PF, ESI, PT, TDS returns.**
+
+---
+
+## 11. Navigation QA & Final Review
+- After all edits, check all navigation links, dropdowns, service section order, and page accessibility to ensure:
+  - No traces of removed categories ("One Person Company", "MSME") remain.
+  - Newly inserted ("CHITS FUNDS COMPANY", "GST Notices") appear in all relevant lists and can be navigated to.
+  - Employee Benefits is updated as described in both Licenses and More section.
+- Test across desktop/mobile to confirm order and accessibility are maintained.
+---
+
+**Apply these changes step by step as per the instructions above. Confirm each change visually and functionally before moving to the next. Review all navigation once complete to ensure precise alignment with client requirements.**

@@ -1,0 +1,48 @@
+```markdown
+# Replit Prompt: Restore AI Suggestions Button to Hero Section (Landing Page)
+
+---
+
+## 1. Problem
+
+- The "AI Suggestions" (or "AI Service Recommendations") button in the hero section of the landing page was replaced by a "Business Resources" (Blog) button after recent navigation changes.
+- Client/user now wants the dedicated AI Suggestions button/feature restored to the hero section, exactly as before—while keeping blog access available elsewhere as needed.
+
+---
+
+## 2. Actions Required
+
+- **Review the landing page component (e.g., `Home.tsx`, `Landing.tsx`, or corresponding hero component):**
+    - Restore the "AI Suggestions" button in the hero section, using the same style, placement, and logic as the original version.
+    - The button should explicitly link to the AI Suggestions feature/page or scroll to the AI Recommendation form/component on the landing page (as implemented previously).
+
+- **Do not remove the Blog/Business Resources link from the header nav** if that was added for navigation—but ensure the hero section remains focused on the AI-powered service recommendation CTA as before.
+- If both features are wanted in the hero, you may include two buttons side-by-side, but "AI Suggestions" (or similar original label) must be present and primary.
+
+---
+
+## 3. Navigation Consistency
+
+- Confirm that the landing page "AI Suggestions" function works end-to-end:
+    - Button is visible on page load.
+    - Clicking navigates to, scrolls to, or opens the AI recommendation feature (not to the blog resource).
+    - The navigation bar maintains a Blog link as per broader site navigation, but the hero/landing CTA is for AI Suggestions.
+
+- If the previous logic was replaced or refactored, look up the last working version of the hero section (before recent nav edits) and reintroduce the AI Suggestions button and logic.
+
+---
+
+## 4. Visual and Functional Test
+
+- After updating, reload the landing page:
+    - Verify that users see the AI Suggestions button in the hero section, styled as before.
+    - Clicking brings up or navigates to the recommendation feature.
+    - Blog remains accessible through the nav but does not replace AI Suggestions in the hero.
+
+---
+
+**Summary:**  
+Restore the "AI Suggestions" button/feature to the main hero section of the landing page, using the original UI/UX and action, regardless of new Blog/Business Resources nav changes. Test and confirm that landing page calls to action prioritize the AI recommendation journey.
+```
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/70504792/d722699e-f3ac-495c-8878-1299b4b6be49/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQQBWBR3M&Signature=jrLedDPhxh0mq9nmc1gEdsfTTcM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIECCCDXQr3OWzPcCbym49RnDYcw8TW0Xjie9RXr6E%2FrEAiEA9hP6FyirYfNnQOl6GCC%2FIwtPKwn1Ls9HtkWzbLcyOEcq%2BgQIwv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDHfQJNrBnTkyNLW3FSrOBP2a7rttmLi6yalVZek9RgkHNFh6NZ69ilkbMzwBls5o%2F8lIvwJYM5nzTVXEMuWDW1wwzo2ecerPfxw%2F5Bc8HMzhWTfsxaOTJzUSc2BBV4rcXAz%2BXQv%2BlqMzYoh5kF61JkU8Pig8nzXZQ9C9jzgI6qROM80O9w26XIYXS8BgUPAOUyBaTI1hM%2BXWbj8Wtgq82kDxbapBbtvIPImslepCO8TZ1v8qXhRp7n8wAMKy650bQnfiiD%2FOyloTfs1DZszDdMuU5Bb8FqoNLgp7mGBrF98CcpPkB57r9Axyu463WP9%2FNzb7GmNPZnquMT0yRkzhuZFwmbdAo10UooDB%2BRUlCIaOjG1C2m0NohckBzwtRfbDeDef2pAcF0PVxMLOLPPLJDO1NXxew7GrvTCRlJkdHWLZaPrvhiZelDgb13KXYKiFDq17e%2B9pdp8%2FqUN1HgpYWgiyHqiYvmThOY6ndTx8Km13JTwqRE3PfNepdf5Rf09QpmaKu%2BWXknflyOImttAhlkFbLgEFrhLk3vwVfYmQSauCFwG%2BS1W6BCaUFvlbWdcDginXJRFtaXpx7PGStYprIC9AK2OGRiI3YccUXHfmGyGItQ5ZOUG5XekVTW2DPEwlfalc%2B9TOriXouKuFbGxtz7G6B2yi2ZQCI7WV5Me%2BjnSg3n%2FVmUNhze0JGHQBGb4WxX7jLuNWjqTgj5PHj%2FmQmBvFfHfi3hBbIoCjhm822TVIePqKYaRowdBVrSdp63ejOs7j3dY%2F%2FEwavnLUG6YuybUHNHYI3C4S94cs5WbZMKKOqcQGOpoB4HXtB4bv8RVL569L3Y7mUTTSIpg6TgKYkXjahjAW9YzWSfJsOBmZIkHIUsN5RJSWlcJTIvKAPEg1Gf8GQOcgBVVaieN5uB05oodnO6nUS5zHlzufdjj9ptRd%2BPTiZfUxNRDASAsbhDCzpELcahXSutfFzxa2yK3RyVoi5mIQmKQ1r02sir6TpeZZcVBt%2BQvPts3zhTb6%2B7zdkA%3D%3D&Expires=1753894528

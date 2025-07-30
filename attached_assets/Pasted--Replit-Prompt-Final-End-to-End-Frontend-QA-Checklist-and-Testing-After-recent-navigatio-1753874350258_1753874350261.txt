@@ -1,0 +1,95 @@
+# Replit Prompt: Final End-to-End Frontend QA Checklist and Testing
+
+---
+
+After recent navigation, layout, color, page, and service structure changes, follow this step-by-step prompt to **fully test and validate the frontend**—ensuring all user flows, navigation, UI, and content are perfect and client-ready.
+
+---
+
+## 1. Service Card & Service Page QA
+
+- **Check the Services section (home/landing page):**
+    - All service cards (including BUSINESS REGISTRATION, CHITS FUNDS COMPANY, NGO, etc.) must appear, with matching black background and uniform style.
+    - No missing, duplicate, or off-style cards.
+    - Hover and focus states are visually consistent for every card.
+
+- **Click each service card:**
+    - It should correctly route to the matching service page (e.g., `/services/chits-funds-company` or `/services/licences-registrations`).
+    - The service page should use a unified black theme (matching Accounting & Taxing), with correct layout/sections and readable content.
+    - No pages render as white or have broken layout.
+
+---
+
+## 2. Navigation Bar & Header
+
+- **All dropdowns open with a solid black background and visible items (no transparency issues).**
+- **Each dropdown (Business Registration, GST & Indirect Tax, Licenses & Registration, Blog, More):**
+    - Every service and registration displays and links correctly.
+    - No missing or broken links; clicking any item routes to a valid, styled page.
+    - “CHITS FUNDS COMPANY” is present in all intended locations (dropdown, More, mobile menu) and routes to its own service page.
+
+- **Blog link** is visible in the header and routes to the Blog page.
+- **Navigation order** matches client specification (CHITS after LLP, Partnership after Chits, etc.).
+
+---
+
+## 3. More Dropdown & Mobile Navigation
+
+- **All categories in More menu (desktop and mobile) display correct services and registrations as per the latest navigation.tsx data.**
+    - Accounting & Tax and Mandatory Annual Filings show all their registrations (not just a single catch-all).
+    - Employee Benefits, Changes in Private Limited, Changes in LLP, and NGO Services all present with correct children.
+    - No leftover "One Person Company" or "MSME" anywhere.
+
+- **Open mobile menu (hamburger):**
+    - Menu styling matches desktop.
+    - All links, including nested registrations and categories, work and don’t result in 404s.
+
+---
+
+## 4. Registration Page Routing
+
+- Click every registration (under any service, on More, or in service dropdowns).
+    - For every `slug`, confirm the site routes to a real, styled registration or placeholder page.
+    - No navigation lands on a 404, error, or blank screen.
+
+---
+
+## 5. Visual Design Consistency
+
+- **Black theme is applied everywhere**: landing, header/nav, all services and their detail pages, forms, cards, and dropdowns.
+- **Button and CTA styling**: “Get Started”, “Talk to Expert”, and other major CTAs use the correct button theme.
+- **Text is clear and readable** on all backgrounds for all sections.
+
+---
+
+## 6. Other Flows
+
+- **Appointment Booking Modal:** Black/dark styling, correct field colors, and 20-minute limit notice visible.
+- **AI Recommendations form:** Inputs and dropdown backgrounds fixed (not transparent), text is fully readable while entering and after selection.
+
+---
+
+## 7. General QA Steps
+
+- Test all of the above on both desktop and mobile breakpoints.
+- Test keyboard navigation and screen reader accessibility for major flows.
+- If using React Query or dynamic routes, check data loads after navigation and from browser refresh (avoid broken links/routing).
+
+---
+
+## 8. Mark and Fix Any Issues
+
+- As you click through, immediately note and fix any issue:
+    - UI/UX mismatches
+    - Broken or missing navigation links
+    - Wrong styling in any section/card/dropdown
+    - Placeholder links missing destination pages
+
+---
+
+**Final Instruction:**  
+— Run through every section, link, dropdown, and page as per checklist above.  
+— Confirm everything is visually and functionally perfect and client-ready before final signoff.  
+— Log or report any issues with navigation, styling, or routing for immediate action.
+
+---

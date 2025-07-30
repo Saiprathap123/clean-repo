@@ -1,0 +1,90 @@
+# Replit Prompt: Service Card Color, Service Page Unification, and Client-Requested Changes
+
+---
+
+## 1. Service Card Color Consistency (Home Page – Services Section)
+
+- **Action:** Update all service cards in the “Services” section of the home page so they use the *exact same black color, style, and format* as the reference in the attached image.
+    - Every service card must have `bg-black` (or `#161616` as used in the current Accounting & Taxing page), with matching border, shadow, text, and icon styles across all cards.
+    - No service card may use a lighter or different background.
+    - Ensure hover, active, and selected states also use the black/dark theme.
+    - Confirm spacing, corner radius, and padding are visually identical among all service cards.
+
+---
+
+## 2. Service Page Unification
+
+- **Action:** Make all service pages (e.g., Business Registration, Licenses & Registration, etc.) *use the same layout, theme, and section formatting as the "Accounting & Taxing" service page.*
+    - Black/dark background on the main page and all cards/sections.
+    - Page structure: clear `<h1>` title, intro/overview at top, benefit sections, compliance/required docs as cards or panels, FAQs, and CTAs—replicate the order and style of Accounting & Taxing across every service page.
+    - No white or off-theme backgrounds; every section/card uses black-theme colors.
+    - Unify font weights, spacing, headings, and interactive elements for seamless experience.
+    - Registration detail pages linked from each service must also adopt the unified theme if not already done.
+
+---
+
+## 3. Apply Client's List of Required Changes
+
+### 1. Private Companies Tab (Page/Card/Section):
+   - Add to minimum & compliance requirements:  
+     • “Books should be maintained as per income tax act”
+   - Benefits:
+     • Add “name of the company will be reserved - Registered Name Advantage in Private Limited”
+     • Add “helpful in promotion, branding, marketing”
+
+### 2. Public Company Tab:
+   - Under definition, insert:  
+     • (Public Company Suits Listing Needs; Private Offers Simpler Operations.  
+       Private Company Preferred Unless Public Listing is Planned)
+   - Remove “CS requirement” from minimum compliance.
+   - Remove “Board meetings and AGM” from compliance requirements.
+   - Add: “Public company compliances are more than private company”
+
+### 3. LLP Tab:
+   - Benefits:  
+     • Remove “operational flexibility”
+     • Add “registered name advantage”
+   - After definition, insert:  
+     • “Partnership is preferred for ease doing businesses otherwise LLP is preferrable”
+
+### 4. Remove “One Person Company” Service
+   - Delete the service card, all navigation links, and all content/pages for “One Person Company”.
+
+### 5. After LLP Service Card, Insert “CHITS FUNDS COMPANY” Card
+   - Create a new card and navigation entry for “CHITS FUNDS COMPANY” immediately after LLP in the services section and header. (Use a placeholder page/content if detailed info is not yet provided.)
+
+### 6. Put Partnership Service Card After Chit Funds in Services Section
+
+### 7. GST Tabs/Registrations:
+   - Add a “GST Notices” registration under GST services/pages.
+
+### 8. Licenses & Registration Tab:
+   - Remove MSME registration (keep only UDYAM, as they are the same).
+
+### 9. More Services Tab:
+   - Ensure “Accounting and Tax,” “Mandatory Filings,” and “Employee Benefit” appear as main top-level tabs; move other items below them.
+
+### 10. Employee Benefits in More Tab:
+   - Shift all Employee Benefits registrations (except “Monthly returns,” PF, ESI, PT, and TDS returns) to Licenses & Registration tab.
+   - In More, only “Monthly returns,” PF, ESI, PT, and TDS returns are visible.
+
+---
+
+## 4. Navigation and QA
+
+- Update all relevant navigation sections—header nav, more menus, card links, and footer—to reflect all above changes in order and content.
+- Remove/replace any outdated references; double-check for straggling links to deleted services (“One Person Company,” MSME, etc.).
+- Confirm every new/adjusted service and registration is accessible via both the Services section and header/nav dropdowns.
+- Test all cards, dropdowns, registration links, and service/registration pages for uniform theme and navigation.
+
+---
+
+## 5. Final Visual Audit
+
+- Ensure all requested theme and functional changes apply across desktop and mobile.
+- Every service card, service page, input, dropdown, and modal must now match the black/dark theme and new hierarchy.
+- All newly requested edits, deletions, and insertions must be visible and functional.
+
+---
+
+**Proceed to fully implement black theme for all cards, all service pages using the Accounting & Taxing template, and all client-requested changes in text, tabs, registrations, header, and service section order. Visually QA before completion.**

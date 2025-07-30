@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 4%); /* #0A0A0A */
+  --foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --muted: hsl(0, 0%, 11%); /* #18181b */
+  --muted-foreground: hsl(0, 0%, 64%); /* #a3a3a3 */
+  --popover: hsl(0, 0%, 9%); /* #161616 */
+  --popover-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --card: hsl(0, 0%, 9%); /* #161616 */
+  --card-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --border: hsl(0, 0%, 13%); /* #222222 */
+  --input: hsl(0, 0%, 11%); /* #18181b */
+  --primary: hsl(0, 0%, 9%); /* #161616 */
+  --primary-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --secondary: hsl(0, 0%, 11%); /* #18181b */
+  --secondary-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --accent: hsl(0, 0%, 13%); /* #222222 */
+  --accent-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(0, 0%, 100%); /* #ffffff */
+  --radius: 0.5rem;
+  
+  /* Original Black Theme Palette */
+  --primary-bg: #0A0A0A;
+  --secondary-bg: #161616;
+  --card-bg: #18181b;
+  --border-color: #222222;
+  --input-bg: #18181b;
+  --button-bg: #161616;
+  --button-hover-bg: #232323;
+  --text-primary: #ffffff;
+  --text-light: #ffffff;
+  --text-placeholder: #b0b0b0;
+  --button-text: #ffffff;
+  --button-hover-text: #ffffff;
+  --highlight-bg: #161616;
+  --shadow-color: #222222;
+  --accent-blue: #5b91e1;
+}
+
+.dark {
+  --background: hsl(0, 0%, 4%); /* #0A0A0A */
+  --foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --muted: hsl(0, 0%, 11%); /* #18181b */
+  --muted-foreground: hsl(0, 0%, 64%); /* #a3a3a3 */
+  --popover: hsl(0, 0%, 9%); /* #161616 */
+  --popover-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --card: hsl(0, 0%, 9%); /* #161616 */
+  --card-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --border: hsl(0, 0%, 13%); /* #222222 */
+  --input: hsl(0, 0%, 11%); /* #18181b */
+  --primary: hsl(207, 90%, 54%); /* keep accent blue */
+  --primary-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --secondary: hsl(0, 0%, 9%); /* #161616 */
+  --secondary-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --accent: hsl(0, 0%, 13%); /* #222222 */
+  --accent-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 100%); /* #ffffff */
+  --ring: hsl(0, 0%, 13%); /* #222222 */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background-color: #0A0A0A;
+    color: #ffffff;
+  }
+}
+
+/* Custom classes for black theme */
+.bg-black-main {
+  background-color: #0A0A0A;
+}
+
+.bg-black-section {
+  background-color: #161616;
+}
+
+.bg-black-surface {
+  background-color: #18181b;
+}
+
+.bg-black-card {
+  background-color: #161616;
+}
+
+.border-black-border {
+  border-color: #222222;
+}
+
+.text-white-primary {
+  color: #ffffff;
+}
+
+.text-white-muted {
+  color: #a3a3a3;
+}
+
+/* Black Theme Button Styles */
+.btn-black {
+  background-color: #161616;
+  color: #ffffff;
+  border: 1px solid #232323;
+  transition: all 0.2s ease;
+}
+
+.btn-black:hover {
+  background-color: #232323;
+  color: #ffffff;
+  border-color: #232323;
+}
+
+/* Black Theme Input Styles */
+.input-black {
+  background-color: #18181b;
+  color: #ffffff;
+  border: 1px solid #222222;
+}
+
+.input-black::placeholder {
+  color: #b0b0b0;
+}
+
+.input-black:focus {
+  border-color: #5b91e1;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(91, 145, 225, 0.1);
+}

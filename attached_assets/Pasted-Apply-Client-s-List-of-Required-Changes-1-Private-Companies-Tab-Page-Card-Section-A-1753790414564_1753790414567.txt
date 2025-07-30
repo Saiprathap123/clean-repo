@@ -1,0 +1,44 @@
+Apply Client's List of Required Changes
+
+### 1. Private Companies Tab (Page/Card/Section):
+   - Add to minimum & compliance requirements:  
+     • “Books should be maintained as per income tax act”
+   - Benefits:
+     • Add “name of the company will be reserved - Registered Name Advantage in Private Limited”
+     • Add “helpful in promotion, branding, marketing”
+
+### 2. Public Company Tab:
+   - Under definition, insert:  
+     • (Public Company Suits Listing Needs; Private Offers Simpler Operations.  
+       Private Company Preferred Unless Public Listing is Planned)
+   - Remove “CS requirement” from minimum compliance.
+   - Remove “Board meetings and AGM” from compliance requirements.
+   - Add: “Public company compliances are more than private company”
+
+### 3. LLP Tab:
+   - Benefits:  
+     • Remove “operational flexibility”
+     • Add “registered name advantage”
+   - After definition, insert:  
+     • “Partnership is preferred for ease doing businesses otherwise LLP is preferrable”
+
+### 4. Remove “One Person Company” Service
+   - Delete the service card, all navigation links, and all content/pages for “One Person Company”.
+
+### 5. After LLP Service Card, Insert “CHITS FUNDS COMPANY” Card
+   - Create a new card and navigation entry for “CHITS FUNDS COMPANY” immediately after LLP in the services section and header. (Use a placeholder page/content if detailed info is not yet provided.)
+
+### 6. Put Partnership Service Card After Chit Funds in Services Section
+
+### 7. GST Tabs/Registrations:
+   - Add a “GST Notices” registration under GST services/pages.
+
+### 8. Licenses & Registration Tab:
+   - Remove MSME registration (keep only UDYAM, as they are the same).
+
+### 9. More Services Tab:
+   - Ensure “Accounting and Tax,” “Mandatory Filings,” and “Employee Benefit” appear as main top-level tabs; move other items below them.
+
+### 10. Employee Benefits in More Tab:
+   - Shift all Employee Benefits registrations (except “Monthly returns,” PF, ESI, PT, and TDS returns) to Licenses & Registration tab.
+   - In More, only “Monthly returns,” PF, ESI, PT, and TDS returns are visible.

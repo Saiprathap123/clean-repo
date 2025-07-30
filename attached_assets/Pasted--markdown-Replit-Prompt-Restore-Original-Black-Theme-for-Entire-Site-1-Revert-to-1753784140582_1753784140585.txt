@@ -1,0 +1,60 @@
+```markdown
+# Replit Prompt: Restore Original Black Theme for Entire Site
+
+---
+
+## 1. Revert to the Original Black Theme (Reference: https://professionalserviceplatform.onrender.com/)
+
+**Action:**
+- Update all colors for site backgrounds, cards, buttons, footer, header nav, and UI components to use the original rich black theme as designed in the initial build.
+
+### Refer to the original color scheme:
+- **Main background:** `#0A0A0A` (or `bg-black`)
+- **Section/Card background:** `#161616`, `#18181b`
+- **Footer and header:** `#070707` or `black`
+- **Button background:** `#161616` (with `text-white`), hover as `#232323` or slightly lighter black/grey
+- **Input/field backgrounds:** `#18181b` with white or light grey text
+- **Borders:** `#222222` to `#242424`
+- **Text:** White (`#fff`), off-white, or very light grey for body and captions
+- **No greys or light backgrounds** except as previously used for contrast in the original design.
+
+---
+
+## 2. How to Apply Globally
+
+- In Tailwind config or global CSS, **revert/override** any recent additions overriding the black design.
+- Replace all `bg-[#777777]`, `bg-[#555555]`, or any custom greys with the above blacks.
+- Make sure all cards, service section backgrounds, modals, dropdowns, accordions, and side panels use `#161616`, `#18181b`, or black.
+- Buttons:
+  - Default: `bg-[#161616] text-white border-[#232323]`
+  - Hover: `bg-[#232323] text-white`
+- Inputs: `bg-[#18181b] text-white border-[#222222]`
+- All links, navs, and the footer should have a saturated black background context with clear white text.
+- Test for contrast and accessibility exactly as the original, ensuring no accidental retention of recent grey/light themes.
+
+---
+
+## 3. Visual Consistency Review
+
+- Use the reference site URL (https://professionalserviceplatform.onrender.com/) to match section by section for:
+    - Main page background
+    - Services section, hero card, modals and Service cards
+    - Header and footer styling
+    - All buttons—including appointment modal, CTA, “Get Started”, etc.—return to black theme buttons
+    - Check appointment and booking forms, dropdowns, nav popovers—color/base should all match original blacks.
+- **Check every page** for consistent re-application of the black palette—no grey, pastel, or accidental legacy color overrides anywhere.
+
+---
+
+## 4. Additional Notes
+
+- No changes needed to layout, navigation, or component hierarchies unless required to restore color styling as per the reference.
+- Do not change any updated features, SEO, or new service/registration listings—just the theme.
+- After completing the color overhaul, visually QA every screen to ensure every surface, modal, and element is themed to match the reference black design.
+
+---
+
+**Proceed by reverting all colors and palette choices to the original black theme found at https://professionalserviceplatform.onrender.com/. Pay special attention to all page backgrounds, service cards, buttons, and the footer to restore full brand consistency across every UI element.**
+```
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/70504792/e694c929-1f23-422c-96d6-5cb69844b32d/Register-a-Startup-Changes.pdf

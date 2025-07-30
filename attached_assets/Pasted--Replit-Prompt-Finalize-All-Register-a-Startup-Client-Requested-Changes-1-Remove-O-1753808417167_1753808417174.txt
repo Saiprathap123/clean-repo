@@ -1,0 +1,88 @@
+# Replit Prompt: Finalize All "Register a Startup" Client-Requested Changes
+
+---
+
+## 1. Remove One Person Company Service
+
+- **Completely remove** all references to “One Person Company”:
+    - Delete the service card/tab from the services section and navigation.
+    - Remove any related content/pages, routes, and links (including header/dropdowns, sidebars, etc.).
+    - Double-check the "More" section and footer for stray links.
+
+---
+
+## 2. Add "CHITS FUNDS COMPANY" Service
+
+- **Action:** 
+    - Add a new service named **"CHITS FUNDS COMPANY"**:
+        - Insert the "CHITS FUNDS COMPANY" card/tab **immediately after LLP** in the Services section and all navigation (main nav, sidebar, more dropdown, etc.).
+        - Set up a dedicated service page for Chits Funds Company (just like other services; use placeholder content, e.g., "Details coming soon" until full content is provided).
+        - Ensure it's included in the "More" section in the header nav.
+    - Mimic the style, layout, card design, and navigation structure of existing services for full consistency.
+    - After "CHITS FUNDS COMPANY," the Partnership tab/card must directly follow.
+
+---
+
+## 3. Apply All Additional Edits/Instructions Precisely
+
+### Private Companies Tab:
+- Under Minimum and Compliance Requirements, **add:**  
+  - “Books should be maintained as per income tax act”
+- In Benefits tab, **add:**  
+  - “Name of the company will be reserved - Registered Name Advantage in Private Limited”
+  - “Helpful in promotion, branding, marketing”
+
+### Public Company Tab:
+- Immediately below the company definition, **insert:**  
+  - *(Public Company Suits Listing Needs; Private Offers Simpler Operations.  
+    Private Company Preferred Unless Public Listing is Planned)*
+- In minimum compliance, **remove:**  
+  - The “CS requirement” point.
+- In compliance requirements, **remove:**  
+  - “Board meetings and AGM”
+  - **Add:** “Public company compliances are more than private company”
+
+### LLP Tab:
+- In benefits, **remove:**  
+  - “operational flexibility”
+- **Add:** “registered name advantage”
+- After the definition, **insert:**  
+  - “Partnership is preferred for ease doing businesses otherwise LLP is preferable”
+
+### Partnership Tab:
+- Make sure this card/tab appears **immediately after CHITS FUNDS COMPANY** in the services/nav.
+
+### GST Tabs:
+- **Add a tab/page/section for** “GST Notices”.
+
+### Licenses & Registration Tab:
+- **Remove the MSME registration/tab** (since Udyam and MSME are the same — only keep Udyam).
+
+### More Services Tab:
+- **Ensure top-level (first visible) tabs:**  
+  - “Accounting and Tax”, “Mandatory Filings”, **and** “Employee Benefit”.
+- Place remaining services/registrations **below** these in the list/order.
+
+### Employee Benefits (in More Tab and Registrations):
+- **Shift all ‘Employee Benefits’ registrations** to the Licenses & Registration tab (do not duplicate in both places).
+- In the “More” tab, **under Employee Benefits, only show:**  
+  - Monthly returns  
+  - PF  
+  - ESI  
+  - PT  
+  - TDS returns
+
+---
+
+## 4. QA and Completion
+
+- **Confirm all instructions are applied everywhere they should be:**
+    - Remove all legacy/stray links to removed tabs/services.
+    - Make sure navigation order and grouping exactly match the client list above.
+    - Review all changes on desktop and mobile for consistency.
+- “CHITS FUNDS COMPANY” should be fully integrated and ready for additional data.
+- No “One Person Company” content should remain in the UI/site/nav.
+
+---
+
+**Respond with confirmation when each section is complete. Client's requirements must be 100% reflected on the site, navigation, and all service tabs before further work.**
