@@ -1,0 +1,50 @@
+# Replit Prompt: Apply Service and Content Updates Globally Across Entire Site
+
+---
+
+## 1. Scope of Work
+
+- Previous updates (service removals, renames, moves) have been done **only in the header navigation**, but **they must be reflected uniformly across the entire site**, including:
+
+  - All individual **service pages** for each service and registration under `client/src/pages/services/`
+  - The **Services section on the homepage**, where service cards and links appear
+  - The **"More" dropdown menus** (both desktop and mobile)
+  - The **mobile navigation menus** and side menus, if any
+  - Any **meta titles, breadcrumb navigation, and SEO-related components**
+
+- Reference the updated header navigation to ensure **consistency and synchronization** of service and registration naming, ordering, and inclusion/exclusion.
+
+---
+
+## 2. Appointment Booking Form Service List Update
+
+- Update the **list of services** displayed in the appointment booking form’s service dropdown/select input to reflect the latest, accurate service list, including:
+
+  - Removal and renaming of services as per the updated structure
+  - Addition of new or moved services
+  - Consistency with the global service taxonomy now defined in the header navigation and global site services
+
+- Confirm this update is done wherever the booking form is implemented (likely in `BookingModal.tsx` or equivalent).
+
+---
+
+## 3. Quality Assurance and Testing
+
+- Thoroughly test **all entry points and pages**:
+  - Verify the homepage service section matches navigation and booking form.
+  - Confirm individual service pages load correctly with updated titles and content.
+  - Confirm booking form’s service options are complete and accurate.
+
+- Fix any mismatches, missing services, or outdated references detected during testing.
+
+---
+
+## 4. If Unclear or Any Conflict
+
+- Refer to the **header navigation service data as the single source of truth** for updated service names, orders, and removals.
+- If needed, confirm with client or project leads to clarify any ambiguous renames or service moves.
+
+---
+
+**Execute this holistic update task to ensure the site is fully synchronized with the updated services taxonomy, navigation, and booking form options.**  
+Make these global changes and confirm delivery with comprehensive testing.
