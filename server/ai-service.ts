@@ -45,7 +45,7 @@ You are an expert Chartered Accountant advisor helping businesses find the right
 
 AVAILABLE SERVICES:
 1. Business Registration (Private Ltd, LLP, OPC, Partnership, etc.) - /services/business-registration
-2. GST & Indirect Taxes (Registration, Filing, Compliance) - /services/gst-indirect-taxes  
+2. GST (Registration, Filing, Compliance) - /services/gst-tax-services  
 3. Licenses & Registrations (Trade License, FSSAI, Udyam, etc.) - /services/licenses-registrations
 4. NGO Services (Section 8, Trust, NGO Registration) - /services/ngo-services
 5. Accounting & Taxing (Bookkeeping, Tax Filing, TDS) - /services/accounting-taxing
@@ -192,8 +192,8 @@ function getFallbackRecommendations(request: RecommendationRequest): Recommendat
   // GST registration for most business types
   if (["ecommerce", "manufacturing", "retail", "services"].includes(request.businessType)) {
     recommendations.push({
-      serviceName: "GST & Indirect Taxes",
-      serviceRoute: "/services/gst-indirect-taxes",
+      serviceName: "GST",
+      serviceRoute: "/services/gst-tax-services",
       priority: "high",
       reasoning: "Mandatory for businesses with turnover above ₹20 lakhs, essential for input tax credit and compliance.",
       estimatedCost: "₹5,000 - ₹10,000",

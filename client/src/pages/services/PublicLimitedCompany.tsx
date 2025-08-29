@@ -107,9 +107,21 @@ export default function PublicLimitedCompany() {
             <p className="text-lg text-gray-300 leading-relaxed">
               A Public Company is a company that is permitted to issue shares to the general public and may be listed on a stock exchange. It is governed under the Companies Act, 2013, and is required to comply with extensive regulatory obligations to protect investors' interests. Public companies can raise large amounts of capital from the public, making them suitable for businesses planning significant expansion or large-scale operations.
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed mt-4 font-semibold">
-              (Public Company Suits Listing Needs; Private Offers Simpler Operations. Private Company Preferred Unless Public Listing is Planned)
-            </p>
+            <div className="mt-8 bg-gradient-to-r from-[#5b91e1] to-[#4a7bc8] rounded-lg border-2 border-[#5b91e1] overflow-hidden">
+              <div className="py-4 px-6">
+                <div className="animate-marquee whitespace-nowrap">
+                  <span className="text-lg font-bold text-white mx-8">
+                    ⚠️ Public Company Suits Listing Needs; Private Offers Simpler Operations. Private Company Preferred Unless Public Listing is Planned ⚠️
+                  </span>
+                  <span className="text-lg font-bold text-white mx-8">
+                    ⚠️ Public Company Suits Listing Needs; Private Offers Simpler Operations. Private Company Preferred Unless Public Listing is Planned ⚠️
+                  </span>
+                  <span className="text-lg font-bold text-white mx-8">
+                    ⚠️ Public Company Suits Listing Needs; Private Offers Simpler Operations. Private Company Preferred Unless Public Listing is Planned ⚠️
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

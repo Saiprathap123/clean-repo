@@ -106,9 +106,21 @@ export default function LimitedLiabilityPartnership() {
             <p className="text-lg text-gray-300 leading-relaxed">
               A Limited Liability Partnership (LLP) is a hybrid business structure that combines the benefits of a partnership and a company. It provides limited liability protection to partners while offering operational flexibility and a separate legal identity. Unlike traditional partnerships, partners in an LLP are not personally liable for the misconduct or negligence of other partners, making it ideal for professional services and small to medium businesses.
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed mt-4 font-semibold">
-              Partnership is preferred for ease doing businesses otherwise LLP is preferable
-            </p>
+            <div className="mt-8 bg-gradient-to-r from-[#5b91e1] to-[#4a7bc8] rounded-lg border-2 border-[#5b91e1] overflow-hidden">
+              <div className="py-4 px-6">
+                <div className="animate-marquee whitespace-nowrap">
+                  <span className="text-lg font-bold text-white mx-8">
+                    ⚠️ Partnership is preferred for ease doing businesses otherwise LLP is preferable ⚠️
+                  </span>
+                  <span className="text-lg font-bold text-white mx-8">
+                    ⚠️ Partnership is preferred for ease doing businesses otherwise LLP is preferable ⚠️
+                  </span>
+                  <span className="text-lg font-bold text-white mx-8">
+                    ⚠️ Partnership is preferred for ease doing businesses otherwise LLP is preferable ⚠️
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

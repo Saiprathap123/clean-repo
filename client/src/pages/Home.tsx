@@ -167,12 +167,12 @@ export default function Home() {
               </div>
             </div>
 
-            {/* 2. GST & Indirect Taxes */}
+            {/* 2. GST */}
             <div className="bg-[#000000] rounded-xl p-8 border border-[#222222] hover:border-[#5b91e1] transition-all duration-300 transform hover:scale-105 shadow-lg">
               <div className="mb-6">
                 <FileText className="h-12 w-12 text-[#5b91e1] mb-4" />
                 <h2 className="text-xl font-semibold text-white mb-2">
-                  GST & Indirect Taxes
+                  GST
                 </h2>
                 <p className="text-white mb-4">
                   Comprehensive GST registration, filing, compliance, and

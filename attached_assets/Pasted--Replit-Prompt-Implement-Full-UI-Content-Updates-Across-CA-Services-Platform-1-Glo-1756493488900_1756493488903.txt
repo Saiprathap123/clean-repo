@@ -1,0 +1,121 @@
+# Replit Prompt: Implement Full UI & Content Updates Across CA Services Platform
+
+---
+
+## 1. Global Service Name Change
+- **Rename "GST & Indirect Taxes" → "GST"**  
+  Apply change everywhere:
+  - Header navigation / dropdown text
+  - "Services" section on landing page
+  - Any service pages and page titles
+  - Mobile menu
+  - Breadcrumbs, meta titles (if present)
+
+---
+
+## 2. Business Registration Services Updates
+- **Remove**:
+  - "Nidhi Company Registration"
+  - "Producer Company Registration"
+- **Move**:
+  - "Section 8 Company Registration" from NGO Services → Business Registration  
+    (Appears after "Partnership Firm Registration" in order)
+- Ensure reflected in:
+  - Header dropdown
+  - Services section (landing page)
+  - Mobile menu
+
+---
+
+## 3. Licenses & Registrations Services Updates
+- **Remove**:
+  - "IEC (Import/Export Code)"
+  - "Leave & LTA Policy"
+- Update in:
+  - Header dropdown
+  - Landing page services list
+  - Mobile menu
+
+---
+
+## 4. "More" Tab Enhancements
+- In **"Accounting & Tax"** and **"Mandatory Annual Filings"** in More dropdown:
+  - List **all individual registrations** explicitly (like we’ve done for other service categories).
+  - Accounting & Tax items (confirm from current registry):  
+    - Accounting and Book-keeping  
+    - TDS Return Filing  
+    - Individual Income Tax Filing  
+    - Proprietorship Tax Return Filing  
+    - ITR for LLP  
+    - Corporate Tax  
+    - Income Tax Assessment  
+    - Income Tax Notice  
+  - Mandatory Annual Filings items:  
+    - Annual Compliance Services  
+    - LLP Annual Filings
+
+---
+
+## 5. Highlight AI Service Recommendations
+- **Keep existing AI Service Recommendations button in hero section**.
+- Add **new floating action button** (FAB) at bottom-right or side-bottom across all pages:
+  - Stays fixed on screen.
+  - When clicked, scrolls/jumps to the AI Recommendations section or opens it in a modal.
+  - Style to stand out (accent blue background, hover animation).
+
+---
+
+## 6. Navigation Page Transition Animation
+- Implement a **page route transition animation** (e.g., slide-in or fade+slide) when navigating between pages in Wouter:
+  - Animation should be fast (300–500ms) and give visual cue of navigation.
+  - Apply globally for all route changes.
+
+---
+
+## 7. Page Load Scroll Position Fix
+- Fix navigation so that when moving to any service or registration page:
+  - Page loads scrolled to the **top (heading)**, not mid-content.
+  - Implement `window.scrollTo(0,0)` on route change in router or useEffect in page components.
+
+---
+
+## 8. Service Page Content Changes
+### Private Limited Company Registration
+- In Benefits section:
+  - **Remove** "Easy Fundraising" and "Enhanced Credibility" benefit boxes.
+
+### Public Limited Company Registration
+- Highlight the advisory text:  
+  *"(Public Company Suits Listing Needs; Private Offers Simpler Operations. Private Company Preferred Unless Public Listing is Planned)"*
+- Style it as:
+  - Prominent banner with contrasting background and accent border.
+  - Horizontal scrolling marquee effect (continuous left-to-right, smooth).
+
+### LLP Registration
+- Highlight the advisory text:  
+  *"Partnership is preferred for ease doing businesses otherwise LLP is preferable"*
+- Same treatment as public ltd advisory:
+  - Styled banner
+  - Horizontal scrolling marquee
+
+---
+
+## 9. Global Application of Changes
+- All edits to services/categories must be reflected **globally**:
+  - Header navigation
+  - More dropdown
+  - Mobile menu
+  - Landing page services grid
+  - Any SEO/meta where applicable
+
+---
+
+## 10. Final QA
+- Test all navigation links after updates.
+- Verify "AI Service Recommendations" is highly visible (hero + floating button).
+- Confirm animations and scroll fixes work seamlessly.
+- Ensure removed services no longer appear anywhere.
+- Check updated names/structures consistent in desktop & mobile views.
+
+---
+**Goal:** Deliver all changes as a cohesive update, with consistent navigation, improved UX cues, and globally synced service data, ready for client hand-off.

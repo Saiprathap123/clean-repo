@@ -18,14 +18,6 @@ export default function PrivateLimitedCompany() {
       description: "Company exists as a legal entity separate from its owners, ensuring continuity"
     },
     {
-      title: "Easy Fundraising",
-      description: "Attract investors, venture capital, and bank loans more easily than other structures"
-    },
-    {
-      title: "Enhanced Credibility",
-      description: "Build trust with customers, suppliers, and business partners through corporate structure"
-    },
-    {
       title: "Tax Benefits",
       description: "Access to various tax deductions and benefits available to private companies"
     },

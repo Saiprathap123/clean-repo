@@ -16,8 +16,7 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
     { name: "Limited Liability Partnership (LLP) Registration", slug: "limited-liability-partnership", isPage: true },
     { name: "CHITS FUNDS COMPANY Registration", slug: "chit-funds-company", isPage: true },
     { name: "Partnership Firm Registration", slug: "partnership-firm", isPage: true },
-    { name: "Nidhi Company Registration", slug: "nidhi-company", isPage: true },
-    { name: "Producer Company Registration", slug: "producer-company", isPage: true },
+    { name: "Section 8 Company Registration", slug: "section-8-company", isPage: true },
     { name: "Startup India Registration", slug: "startup-india", isPage: true },
   ];
 
@@ -35,14 +34,12 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
     { name: "Udyam Registration", slug: "udyam-registration", isPage: true },
     { name: "Trade Licenses", slug: "trade-license", isPage: true },
     { name: "FSSAI (Food License)", slug: "fssai-license", isPage: true },
-    { name: "IEC (Import/Export Code)", slug: "import-export-code", isPage: false },
     { name: "Labour Licenses", slug: "labour-licenses", isPage: false },
     { name: "PF Registration", slug: "pf-registration", isPage: false },
     { name: "ESI Registration", slug: "esi-registration", isPage: false },
     { name: "Professional Tax Registration", slug: "professional-tax-registration", isPage: false },
     { name: "ESOP Services", slug: "esop-services", isPage: false },
     { name: "Gratuity Management", slug: "gratuity-management", isPage: false },
-    { name: "Leave & LTA Policy", slug: "leave-lta-policy", isPage: false },
     { name: "Employee Tax Planning", slug: "employee-tax-planning", isPage: false },
     { name: "Payroll Compliance", slug: "payroll-compliance", isPage: false },
   ];
@@ -51,12 +48,22 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
     {
       category: "Accounting & Tax",
       items: [
+        { name: "Accounting and Book-keeping", slug: "accounting-book-keeping", isPage: false },
+        { name: "TDS Return Filing", slug: "tds-return-filing", isPage: false },
+        { name: "Individual Income Tax Filing", slug: "individual-income-tax-filing", isPage: false },
+        { name: "Proprietorship Tax Return Filing", slug: "proprietorship-tax-return-filing", isPage: false },
+        { name: "ITR for LLP", slug: "itr-for-llp", isPage: false },
+        { name: "Corporate Tax", slug: "corporate-tax", isPage: false },
+        { name: "Income Tax Assessment", slug: "income-tax-assessment", isPage: false },
+        { name: "Income Tax Notice", slug: "income-tax-notice", isPage: false },
         { name: "All Accounting & Tax Services", slug: "accounting-taxing", isPage: true },
       ]
     },
     {
       category: "Mandatory Annual Filings",
       items: [
+        { name: "Annual Compliance Services", slug: "annual-compliance-services", isPage: false },
+        { name: "LLP Annual Filings", slug: "llp-annual-filings", isPage: false },
         { name: "All Mandatory Filings", slug: "mandatory-annual-filings", isPage: true },
       ]
     },
@@ -73,7 +80,6 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
     {
       category: "NGO Services",
       items: [
-        { name: "Section 8 Company Registration", slug: "section-8-company", isPage: true },
         { name: "Trust Registration", slug: "trust-registration", isPage: true },
         { name: "NGO Registration", slug: "ngo-registration", isPage: true },
       ]
@@ -142,7 +148,7 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
                 href="/services/gst-tax-services"
                 className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium flex items-center"
               >
-                GST & Indirect Tax
+                GST
                 <ChevronDown className="ml-1 h-3 w-3" />
               </Link>
               <div className="absolute left-0 mt-2 w-64 bg-[#161616] rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-[#222222]">
@@ -275,7 +281,7 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
                   className="text-gray-300 hover:text-white px-3 py-3 text-base font-medium block hover:bg-[#18181b] rounded transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  GST & Indirect Tax
+                  GST
                 </Link>
                 {gstTaxServices.map((service) => (
                   <Link
