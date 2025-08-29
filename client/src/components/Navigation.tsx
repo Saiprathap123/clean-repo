@@ -89,19 +89,16 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
     {
       category: "Changes in Private Limited Company",
       items: [
-        { name: "Add a Director", slug: "add-director", isPage: false },
-        { name: "Remove a Director", slug: "remove-director", isPage: false },
-        { name: "Increase Authorized Capital", slug: "increase-authorized-capital", isPage: false },
-        { name: "Close the Pvt Ltd Company", slug: "close-private-company", isPage: false },
-        { name: "Strike Off Company", slug: "strike-off-company", isPage: false },
-        { name: "Change Objective or Activity", slug: "change-company-objective", isPage: false },
-        { name: "Change Address", slug: "change-company-address", isPage: false },
+        { name: "Director Management", slug: "director-management", isPage: false },
+        { name: "Authorized Capital Changes", slug: "authorized-capital-changes", isPage: false },
+        { name: "Company Closure & Strike Off", slug: "company-closure-strike-off", isPage: false },
+        { name: "Company Profile Changes", slug: "company-profile-changes", isPage: false },
       ]
     },
     {
       category: "Changes in Limited Liability Partnership",
       items: [
-        { name: "Add Designated Partner", slug: "add-designated-partner", isPage: false },
+        { name: "Designated Partner Management", slug: "designated-partner-management", isPage: false },
         { name: "Amend LLP Agreement", slug: "amend-llp-agreement", isPage: false },
         { name: "Close LLP", slug: "close-llp", isPage: false },
       ]

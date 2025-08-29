@@ -1,0 +1,49 @@
+# Replit Prompt: Consolidate Paired Registrations into Single Comprehensive Services
+
+---
+
+## 1. Identify and Group Complementary Registrations That Form Natural Pairs
+
+- For registrations that logically belong together (e.g., Add Director / Remove Director), consolidate them into **one single service** reflecting both actions, with a combined, user-friendly name.
+
+### Examples:
+
+| Current Separate Registrations           | Consolidated Service Name           |
+|-----------------------------------------|-----------------------------------|
+| Add a Director, Remove a Director       | Director Management                |
+| Increase Authorized Capital, Decrease Authorized Capital (if any) | Authorized Capital Changes        |
+| Add Designated Partner, Remove Designated Partner (if any) | Designated Partner Management     |
+| Close the Pvt Ltd Company, Strike Off Company | Company Closure & Strike Off      |
+
+- Review all services/registrations across the site (header navigation, landing page, More dropdown, mobile menu, service list pages) to identify such pairs and consolidate accordingly.
+- For any service currently only having one side (e.g., "Add Director" only), propose adding the complement ("Remove Director") or create a general combined category for future additions.
+
+---
+
+## 2. Implementation Details
+
+- Replace multiple paired links with a **single navigation entry** linking to a combined service page or listing.
+- Update service page content to include both actions under one umbrella with clear subsections for adding/removing, increasing/decreasing, etc.
+- Adjust all route paths and slugs accordingly (e.g., `/services/director-management` instead of separate add/remove director routes).
+- Maintain backward compatibility with existing URLs by adding redirects where necessary.
+
+---
+
+## 3. UI/UX and Consistency
+
+- Throughout the platform (header, dropdowns, mobile menus), show the consolidated service as a single option.
+- Update documentation, breadcrumbs, and SEO/meta tags to reflect the new consolidated naming.
+- On the service page, present add/remove instructions clearly, perhaps with tabs or collapsible sections for each action.
+
+---
+
+## 4. Testing & QA
+
+- Test all combined links to ensure routing works correctly.
+- Validate that legacy individual pages redirect or are merged into the combined page.
+- Confirm no navigation duplication or confusion remains post consolidation.
+
+---
+
+**Summary:**
+Scan the entire service and registration listings for complementary add/remove or increase/decrease pairs. Consolidate each pair into one unified, clear service with combined content and navigation, refactor routes, and globally update navigation UI for consistency and better user experience.
