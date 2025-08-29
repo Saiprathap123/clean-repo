@@ -1,0 +1,70 @@
+# Replit Prompt: Global Update of Service and Registration Changes (Excluding GST Name & Header)
+
+---
+
+## Summary
+You have already completed global updates for:
+- GST name change from “GST & Indirect Taxes” to “GST” everywhere,
+- AI floating action button and AI suggestions placement,
+- Header navigation updates.
+
+Now please focus on **globally updating all other service and registration changes across the entire site** including:
+
+---
+
+## 1. NGO Services Section
+- Remove “NGO Registration” completely.
+- Rename “Trust Registration” to “Trust Registration as per Income Tax”.
+- Ensure that only **“Trust Registration as per Income Tax”** remains listed under NGO Services globally:
+  - Homepage services section
+  - Service pages under `client/src/pages/services/`
+  - More dropdown menu (desktop and mobile)
+  - Booking form services list
+  - Any references in meta data, breadcrumbs, or SEO tags
+
+---
+
+## 2. Employee Benefits Section
+- Move the following services **from Licenses & Registrations** to **Employee Benefits** section globally:
+  - Payroll Compliance
+  - Employee Tax Planning
+- Move “TDS Returns” from Employee Benefits → Mandatory Annual Filings.
+- After moving, update the listings in all applicable places (homepage, menus, booking forms, service detail pages).
+
+---
+
+## 3. Mandatory Annual Filings Section
+- Under Mandatory Annual Filings, present the following registrations/services explicitly:
+  - ROC
+  - GST
+  - Income Tax Returns
+  - TDS Returns
+
+---
+
+## 4. Other Removals
+- Remove “IEC (Import/Export Code)” and “Leave & LTA Policy” completely from Licenses & Registrations globally.
+
+---
+
+## 5. Booking Form Services List
+- Ensure the booking form’s service dropdown/select list reflects the updated global taxonomy after all the above moves/removals/renames.
+- No outdated or removed services should appear.
+- All service slugs route correctly to their corresponding service page or placeholder.
+
+---
+
+## 6. Quality Assurance
+- Test on all site sections (homepage, menus, booking form, individual service pages) to ensure the updated services and registrations listings are consistent, complete, and without duplicates.
+- No references to removed services (“NGO Registration”, “IEC”, “Leave & LTA Policy”, etc.) should remain anywhere.
+- The renamed and moved services must display the updated names and placements everywhere.
+
+---
+
+## Final Note
+**Do NOT update GST names or header navigation as these are fully done.**  
+**Focus on the full site content updates ONLY for NGO, Employee Benefits, Mandatory Filings, Licenses & Registrations, booking form, and service pages.**
+
+---
+
+Please perform a full global synchronization of these service/registration changes urgently and confirm once fully and correctly applied.

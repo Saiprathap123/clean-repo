@@ -78,6 +78,7 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
         { name: "PT", slug: "professional-tax-registration", isPage: false },
         { name: "Payroll Compliance", slug: "payroll-compliance", isPage: false },
         { name: "Employee Tax Planning", slug: "employee-tax-planning", isPage: false },
+        { name: "All Employee Benefits", slug: "employee-benefits", isPage: true },
       ]
     },
     {

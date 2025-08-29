@@ -228,12 +228,10 @@ export default function Home() {
                 </h2>
                 <p className="text-white mb-4">
                   Non-profit organization registration services for charitable
-                  trusts, NGOs, and Section 8 companies
+                  trusts as per Income Tax regulations
                 </p>
                 <ul className="text-sm text-white mb-4 space-y-1">
-                  <li>• Section 8 Company Registration</li>
-                  <li>• Trust Registration</li>
-                  <li>• NGO Registration</li>
+                  <li>• Trust Registration as per Income Tax</li>
                 </ul>
                 <Link
                   href="/services/ngo-services"
@@ -282,8 +280,10 @@ export default function Home() {
                   maintain legal standing
                 </p>
                 <ul className="text-sm text-white mb-4 space-y-1">
-                  <li>• Annual Compliance Services</li>
-                  <li>• LLP Annual Filings</li>
+                  <li>• ROC</li>
+                  <li>• GST</li>
+                  <li>• Income Tax Returns</li>
+                  <li>• TDS Returns</li>
                 </ul>
                 <Link
                   href="/services/mandatory-annual-filings"
