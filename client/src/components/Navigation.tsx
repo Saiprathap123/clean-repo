@@ -40,8 +40,6 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
     { name: "Professional Tax Registration", slug: "professional-tax-registration", isPage: false },
     { name: "ESOP Services", slug: "esop-services", isPage: false },
     { name: "Gratuity Management", slug: "gratuity-management", isPage: false },
-    { name: "Employee Tax Planning", slug: "employee-tax-planning", isPage: false },
-    { name: "Payroll Compliance", slug: "payroll-compliance", isPage: false },
   ];
 
   const moreServices = [
@@ -62,6 +60,10 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
     {
       category: "Mandatory Annual Filings",
       items: [
+        { name: "ROC", slug: "roc-filings", isPage: false },
+        { name: "GST", slug: "gst-filing", isPage: false },
+        { name: "Income Tax Returns", slug: "income-tax-returns", isPage: false },
+        { name: "TDS Returns", slug: "tds-returns", isPage: false },
         { name: "Annual Compliance Services", slug: "annual-compliance-services", isPage: false },
         { name: "LLP Annual Filings", slug: "llp-annual-filings", isPage: false },
         { name: "All Mandatory Filings", slug: "mandatory-annual-filings", isPage: true },
@@ -74,14 +76,14 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
         { name: "PF", slug: "pf-registration", isPage: false },
         { name: "ESI", slug: "esi-registration", isPage: false },
         { name: "PT", slug: "professional-tax-registration", isPage: false },
-        { name: "TDS Returns", slug: "tds-returns", isPage: false },
+        { name: "Payroll Compliance", slug: "payroll-compliance", isPage: false },
+        { name: "Employee Tax Planning", slug: "employee-tax-planning", isPage: false },
       ]
     },
     {
       category: "NGO Services",
       items: [
-        { name: "Trust Registration", slug: "trust-registration", isPage: true },
-        { name: "NGO Registration", slug: "ngo-registration", isPage: true },
+        { name: "Trust Registration as per Income Tax", slug: "trust-registration", isPage: true },
       ]
     },
     {

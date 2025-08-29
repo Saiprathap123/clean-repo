@@ -1,0 +1,59 @@
+# Replit Prompt: Implement AI Assistant FAB Enhancements & Final Service Section Updates
+
+---
+
+## 1. AI Floating Action Button Enhancement  
+- Enhance existing AI floating button (bottom-right/side) to increase visibility and clarity for new users:  
+  - Add a **text label “AI Assistant”** next to or above the button.  
+  - Add a **subtle pulsing/glowing animation** around the button using CSS to draw attention smoothly.  
+  - Implement a **one-time dismissible welcome popup** for first-time visitors:  
+    - Displays near the FAB or centered on screen.  
+    - Message: *"Hi! Click the blue AI Assistant button to get personalized service recommendations."*  
+    - Includes a close/dismiss button to prevent repeated annoyance.  
+  - Optionally replace the FAB icon with an **animated chat bot icon** that waves or blinks once on page load to suggest interactivity.
+
+---
+
+## 2. Service Section Updates (GLOBAL - header, landing page, "More" dropdown, mobile menu)  
+
+### a. Employee Benefits  
+- **Move** these two from Licenses & Registrations → Employee Benefits service:  
+  - Payroll Compliance  
+  - Employee Tax Planning  
+
+### b. NGO Services  
+- **Remove** "NGO Registration" completely.  
+- **Rename** "Trust Registration" to:  
+  - "Trust Registration as per Income Tax"  
+- Resulting NGO Services section contains only:  
+  - "Trust Registration as per Income Tax"
+
+### c. Mandatory Annual Filings  
+- **Move** "TDS Returns" from Employee Benefits → Mandatory Annual Filings.  
+- **Under Mandatory Filings section, list:**  
+  - ROC  
+  - GST  
+  - Income Tax Returns  
+  - TDS Returns  
+
+---
+
+## 3. Apply All Changes Consistently Across the Entire Site  
+- Header navigation dropdowns  
+- Homepage service sections  
+- Mobile menus  
+- "More" dropdown categories and registrations  
+- Any other service listing or route references  
+- Ensure no duplicates, omissions, or mismatches in updated service lists and names.
+
+---
+
+## 4. Final QA  
+- Test all navigation links to updated and moved registration services.  
+- Confirm AI Assistant FAB is highly visible, animated, and the welcome popup triggers correctly for new visitors and is dismissible.  
+- Check styles and responsiveness on desktop and mobile.  
+- Make sure no old or removed service entries remain visible anywhere.
+
+---
+
+**Execute these comprehensive updates immediately, ensuring all frontend service sections reflect the new structure and the AI Assistant feature is unmistakably highlighted to users.**  
