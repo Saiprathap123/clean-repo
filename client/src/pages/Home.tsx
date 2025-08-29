@@ -155,8 +155,8 @@ export default function Home() {
                 <ul className="text-sm text-white mb-4 space-y-1">
                   <li>• Private Limited Company Registration</li>
                   <li>• Public Limited Company Registration</li>
-                  <li>• LLP Registration</li>
-                  <li>• Chits Funds Company Registration</li>
+                  <li>• Limited Liability Partnership (LLP) Registration</li>
+                  <li>• CHITS FUNDS COMPANY Registration</li>
                 </ul>
                 <Link
                   href="/services/business-registration"
