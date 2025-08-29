@@ -10,8 +10,8 @@ export default function AccountingTaxing() {
 
   const accountingServices = [
     {
-      name: "Accounting and Bookkeeping",
-      slug: "accounting-bookkeeping",
+      name: "Accounting and Book-keeping",
+      slug: "accounting-book-keeping",
       description: "Comprehensive bookkeeping, financial statements, and accounting solutions for businesses"
     },
     {
@@ -31,12 +31,12 @@ export default function AccountingTaxing() {
     },
     {
       name: "ITR for LLP",
-      slug: "itr-llp",
+      slug: "itr-for-llp",
       description: "Income tax return filing specifically for Limited Liability Partnerships"
     },
     {
-      name: "Corporate Tax Filing",
-      slug: "corporate-tax-filing",
+      name: "Corporate Tax",
+      slug: "corporate-tax",
       description: "Company income tax return filing and corporate tax compliance"
     },
     {
@@ -45,8 +45,8 @@ export default function AccountingTaxing() {
       description: "Income tax assessment assistance and scrutiny handling"
     },
     {
-      name: "Income Tax Notice Handling",
-      slug: "income-tax-notice-handling",
+      name: "Income Tax Notice",
+      slug: "income-tax-notice",
       description: "Professional handling of income tax notices and department correspondence"
     }
   ];
@@ -59,7 +59,7 @@ export default function AccountingTaxing() {
       <section className="pt-20 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-            Accounting & Taxing
+            Accounting & Tax
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Complete accounting, bookkeeping, and tax filing services for individuals, partnerships, and corporations. Expert CA services for all your financial needs.

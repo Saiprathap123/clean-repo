@@ -16,7 +16,7 @@ export default function MandatoryAnnualFilings() {
     },
     {
       name: "GST",
-      slug: "gst-annual-return",
+      slug: "gst-filing",
       description: "GST annual return filing and compliance management for businesses"
     },
     {
@@ -28,6 +28,16 @@ export default function MandatoryAnnualFilings() {
       name: "TDS Returns",
       slug: "tds-returns",
       description: "Tax Deducted at Source return filing and compliance management for businesses"
+    },
+    {
+      name: "Annual Compliance Services",
+      slug: "annual-compliance-services",
+      description: "Complete annual compliance management for private limited companies and LLPs"
+    },
+    {
+      name: "LLP Annual Filings",
+      slug: "llp-annual-filings",
+      description: "Limited Liability Partnership annual return filing and compliance management"
     }
   ];
 

@@ -29,7 +29,7 @@ export default function BusinessRegistration() {
     },
     {
       name: "CHITS FUNDS COMPANY Registration",
-      slug: "chits-funds-company",
+      slug: "chit-funds-company",
       description:
         "Regulated chit fund company for conducting chit business with proper compliance and member benefits",
     },
@@ -40,16 +40,10 @@ export default function BusinessRegistration() {
         "Simple business structure for two or more partners sharing profits and responsibilities",
     },
     {
-      name: "Nidhi Company Registration",
-      slug: "nidhi-company",
+      name: "Section 8 Company Registration",
+      slug: "section-8-company",
       description:
-        "Non-banking financial company for promoting savings and lending among members",
-    },
-    {
-      name: "Producer Company Registration",
-      slug: "producer-company",
-      description:
-        "Farmer producer organizations for collective farming and agricultural activities",
+        "Non-profit company registration for charitable, educational, and social welfare activities",
     },
     {
       name: "Startup India Registration",

@@ -43,6 +43,16 @@ export default function LicensesRegistrations() {
       name: "Professional Tax Registration",
       slug: "professional-tax-registration",
       description: "State-wise professional tax registration for businesses and employees"
+    },
+    {
+      name: "ESOP Services",
+      slug: "esop-services",
+      description: "Employee Stock Option Plan setup and management for equity-based compensation programs"
+    },
+    {
+      name: "Gratuity Management",
+      slug: "gratuity-management",
+      description: "Gratuity calculation, compliance, and management services for employee retirement benefits"
     }
   ];
 

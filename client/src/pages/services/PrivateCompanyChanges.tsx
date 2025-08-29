@@ -10,44 +10,24 @@ export default function PrivateCompanyChanges() {
 
   const changeServices = [
     {
-      name: "Add a Director",
-      slug: "add-director",
-      description: "Adding new directors to private limited company with complete MCA compliance"
+      name: "Director Management",
+      slug: "director-management",
+      description: "Adding, removing, and managing directors in private limited company with complete MCA compliance"
     },
     {
-      name: "Remove a Director", 
-      slug: "remove-director",
-      description: "Director removal process with proper documentation and regulatory filing"
+      name: "Authorized Capital Changes", 
+      slug: "authorized-capital-changes",
+      description: "Authorized capital increase and modifications for business expansion and growth requirements"
     },
     {
-      name: "Increase Authorized Capital",
-      slug: "increase-authorized-capital",
-      description: "Authorized capital increase for business expansion and growth requirements"
+      name: "Company Closure & Strike Off",
+      slug: "company-closure-strike-off",
+      description: "Complete company closure process and strike off application with regulatory compliance"
     },
     {
-      name: "Close the Pvt Ltd Company",
-      slug: "close-private-company",
-      description: "Complete company closure process with regulatory compliance and asset distribution"
-    },
-    {
-      name: "Strike Off Company",
-      slug: "strike-off-company",
-      description: "Voluntary company strike off application and compliance management"
-    },
-    {
-      name: "Change Objective or Activity",
-      slug: "change-company-objective",
-      description: "Modification of company objectives and business activities with MOA amendments"
-    },
-    {
-      name: "Change Address",
-      slug: "change-company-address",
-      description: "Registered office address change with complete documentation and filing"
-    },
-    {
-      name: "Share Transfer Services",
-      slug: "share-transfer-services",
-      description: "Share transfer documentation and regulatory compliance for ownership changes"
+      name: "Company Profile Changes",
+      slug: "company-profile-changes",
+      description: "Comprehensive company profile modifications including address, objectives, and business activities"
     }
   ];
 

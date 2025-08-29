@@ -15,18 +15,18 @@ export default function EmployeeBenefits() {
       description: "Monthly statutory return filing for PF, ESI, and other employee-related compliances"
     },
     {
-      name: "PF Registration",
+      name: "PF",
       slug: "pf-registration",
       description: "Provident Fund registration and ongoing compliance management for employee welfare"
     },
     {
-      name: "ESI Registration", 
+      name: "ESI", 
       slug: "esi-registration",
       description: "Employee State Insurance registration and management for employee medical benefits"
     },
     {
-      name: "Professional Tax (PT)",
-      slug: "professional-tax",
+      name: "PT",
+      slug: "professional-tax-registration",
       description: "Professional tax registration and return filing for employee tax compliance"
     },
     {
@@ -38,16 +38,6 @@ export default function EmployeeBenefits() {
       name: "Employee Tax Planning",
       slug: "employee-tax-planning",
       description: "Comprehensive tax planning services for employees to maximize savings and optimize deductions"
-    },
-    {
-      name: "ESOP Services", 
-      slug: "esop-services",
-      description: "Employee Stock Option Plan setup and management for equity-based compensation programs"
-    },
-    {
-      name: "Gratuity Management",
-      slug: "gratuity-management",
-      description: "Gratuity calculation, compliance, and management services for employee retirement benefits"
     }
   ];
 
