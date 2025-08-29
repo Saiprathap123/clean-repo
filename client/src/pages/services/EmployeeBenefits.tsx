@@ -30,9 +30,24 @@ export default function EmployeeBenefits() {
       description: "Professional tax registration and return filing for employee tax compliance"
     },
     {
-      name: "TDS Returns",
-      slug: "tds-returns",
-      description: "Tax Deducted at Source return filing and compliance management for employee salaries"
+      name: "Payroll Compliance",
+      slug: "payroll-compliance",
+      description: "Complete payroll processing with statutory compliance for PF, ESI, and professional tax"
+    },
+    {
+      name: "Employee Tax Planning",
+      slug: "employee-tax-planning",
+      description: "Comprehensive tax planning services for employees to maximize savings and optimize deductions"
+    },
+    {
+      name: "ESOP Services", 
+      slug: "esop-services",
+      description: "Employee Stock Option Plan setup and management for equity-based compensation programs"
+    },
+    {
+      name: "Gratuity Management",
+      slug: "gratuity-management",
+      description: "Gratuity calculation, compliance, and management services for employee retirement benefits"
     }
   ];
 

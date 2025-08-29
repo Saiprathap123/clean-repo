@@ -10,34 +10,9 @@ export default function NGOServices() {
 
   const ngoServices = [
     {
-      name: "Section 8 Company Registration",
-      slug: "section-8-company",
-      description: "Non-profit company registration for charitable, educational, and social welfare activities"
-    },
-    {
-      name: "Trust Registration", 
+      name: "Trust Registration as per Income Tax", 
       slug: "trust-registration",
-      description: "Religious, charitable, and educational trust registration with complete legal compliance"
-    },
-    {
-      name: "NGO Registration",
-      slug: "ngo-registration",
-      description: "Non-governmental organization registration for social service and community development"
-    },
-    {
-      name: "Society Registration",
-      slug: "society-registration",
-      description: "Society registration under state societies registration acts for social activities"
-    },
-    {
-      name: "12A Registration",
-      slug: "12a-registration",
-      description: "Income tax exemption registration for charitable organizations and trusts"
-    },
-    {
-      name: "80G Registration",
-      slug: "80g-registration",
-      description: "Tax deduction certificate for donors contributing to charitable organizations"
+      description: "Religious, charitable, and educational trust registration with complete legal compliance as per Income Tax regulations"
     }
   ];
 

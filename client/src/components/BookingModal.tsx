@@ -233,54 +233,14 @@ export default function BookingModal({ isOpen, onClose }: BookingModalProps) {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent className="bg-[#18181b] border-[#222222]">
-                          <SelectItem value="private-limited-company">Private Limited Company Registration</SelectItem>
-                          <SelectItem value="public-limited-company">Public Limited Company Registration</SelectItem>
-                          <SelectItem value="limited-liability-partnership">Limited Liability Partnership (LLP) Registration</SelectItem>
-                          <SelectItem value="chit-funds-company">CHITS FUNDS COMPANY Registration</SelectItem>
-                          <SelectItem value="partnership-firm">Partnership Firm Registration</SelectItem>
-                          <SelectItem value="section-8-company">Section 8 Company Registration</SelectItem>
-                          <SelectItem value="startup-india">Startup India Registration</SelectItem>
-                          <SelectItem value="gst-registration">GST Registration</SelectItem>
-                          <SelectItem value="gst-filing">GST Filing</SelectItem>
-                          <SelectItem value="gst-portal-login-assistance">GST Portal Login Assistance</SelectItem>
-                          <SelectItem value="hsn-code-finder">HSN Code Finder</SelectItem>
-                          <SelectItem value="gst-notices">GST Notices</SelectItem>
-                          <SelectItem value="gst-cancellation-revocation">GST Cancellation and Revocation</SelectItem>
-                          <SelectItem value="indirect-tax-consulting">Indirect Tax Consulting</SelectItem>
-                          <SelectItem value="udyam-registration">Udyam Registration</SelectItem>
-                          <SelectItem value="trade-license">Trade Licenses</SelectItem>
-                          <SelectItem value="fssai-license">FSSAI (Food License)</SelectItem>
-                          <SelectItem value="labour-licenses">Labour Licenses</SelectItem>
-                          <SelectItem value="pf-registration">PF Registration</SelectItem>
-                          <SelectItem value="esi-registration">ESI Registration</SelectItem>
-                          <SelectItem value="professional-tax-registration">Professional Tax Registration</SelectItem>
-                          <SelectItem value="esop-services">ESOP Services</SelectItem>
-                          <SelectItem value="gratuity-management">Gratuity Management</SelectItem>
-                          <SelectItem value="accounting-book-keeping">Accounting and Book-keeping</SelectItem>
-                          <SelectItem value="tds-return-filing">TDS Return Filing</SelectItem>
-                          <SelectItem value="individual-income-tax-filing">Individual Income Tax Filing</SelectItem>
-                          <SelectItem value="proprietorship-tax-return-filing">Proprietorship Tax Return Filing</SelectItem>
-                          <SelectItem value="itr-for-llp">ITR for LLP</SelectItem>
-                          <SelectItem value="corporate-tax">Corporate Tax</SelectItem>
-                          <SelectItem value="income-tax-assessment">Income Tax Assessment</SelectItem>
-                          <SelectItem value="income-tax-notice">Income Tax Notice</SelectItem>
-                          <SelectItem value="roc-filings">ROC</SelectItem>
-                          <SelectItem value="annual-compliance-services">Annual Compliance Services</SelectItem>
-                          <SelectItem value="llp-annual-filings">LLP Annual Filings</SelectItem>
-                          <SelectItem value="tds-returns">TDS Returns</SelectItem>
-                          <SelectItem value="monthly-returns">Monthly Returns</SelectItem>
-                          <SelectItem value="payroll-compliance">Payroll Compliance</SelectItem>
-                          <SelectItem value="employee-tax-planning">Employee Tax Planning</SelectItem>
-                          <SelectItem value="trust-registration">Trust Registration as per Income Tax</SelectItem>
-                          <SelectItem value="director-management">Director Management</SelectItem>
-                          <SelectItem value="authorized-capital-changes">Authorized Capital Changes</SelectItem>
-                          <SelectItem value="company-closure-strike-off">Company Closure & Strike Off</SelectItem>
-                          <SelectItem value="company-profile-changes">Company Profile Changes</SelectItem>
-                          <SelectItem value="private-company-changes">All Private Company Changes</SelectItem>
-                          <SelectItem value="designated-partner-management">Designated Partner Management</SelectItem>
-                          <SelectItem value="amend-llp-agreement">Amend LLP Agreement</SelectItem>
-                          <SelectItem value="close-llp">Close LLP</SelectItem>
-                          <SelectItem value="llp-changes">All LLP Changes</SelectItem>
+                          <SelectItem value="business-registration">Business Registration</SelectItem>
+                          <SelectItem value="gst">GST</SelectItem>
+                          <SelectItem value="licenses-registrations">Licenses & Registrations</SelectItem>
+                          <SelectItem value="ngo-services">NGO Services</SelectItem>
+                          <SelectItem value="accounting-tax">Accounting & Tax</SelectItem>
+                          <SelectItem value="mandatory-annual-filings">Mandatory Annual Filings</SelectItem>
+                          <SelectItem value="private-company-changes">Changes in Private Limited Company</SelectItem>
+                          <SelectItem value="employee-benefits">Employee Benefits</SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage />

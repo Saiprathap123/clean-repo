@@ -25,11 +25,6 @@ export default function LicensesRegistrations() {
       description: "Food safety and standards authority license for food businesses and manufacturers"
     },
     {
-      name: "IEC (Import/Export Code)",
-      slug: "import-export-code",
-      description: "Import export code registration for international trade and business operations"
-    },
-    {
       name: "Labour Licenses",
       slug: "labour-licenses",
       description: "Essential labor compliance licenses for businesses with employees"
@@ -48,31 +43,6 @@ export default function LicensesRegistrations() {
       name: "Professional Tax Registration",
       slug: "professional-tax-registration",
       description: "State-wise professional tax registration for businesses and employees"
-    },
-    {
-      name: "ESOP Services", 
-      slug: "esop-services",
-      description: "Employee Stock Option Plan setup and management for equity-based compensation programs"
-    },
-    {
-      name: "Gratuity Management",
-      slug: "gratuity-management",
-      description: "Gratuity calculation, compliance, and management services for employee retirement benefits"
-    },
-    {
-      name: "Leave & LTA Policy",
-      slug: "leave-lta-policy",
-      description: "Leave policy design and Leave Travel Allowance management with tax optimization"
-    },
-    {
-      name: "Employee Tax Planning",
-      slug: "employee-tax-planning",
-      description: "Comprehensive tax planning services for employees to maximize savings and optimize deductions"
-    },
-    {
-      name: "Payroll Compliance",
-      slug: "payroll-compliance",
-      description: "Complete payroll processing with statutory compliance for PF, ESI, and professional tax"
     }
   ];
 

@@ -10,34 +10,24 @@ export default function MandatoryAnnualFilings() {
 
   const filingServices = [
     {
-      name: "Annual Compliance Services",
-      slug: "annual-compliance-services",
-      description: "Complete annual compliance management for private limited companies and LLPs"
+      name: "ROC",
+      slug: "roc-filings",
+      description: "Registrar of Companies annual return filing and compliance for all company types"
     },
     {
-      name: "LLP Annual Filings", 
-      slug: "llp-annual-filings",
-      description: "Limited Liability Partnership annual return filing and compliance management"
+      name: "GST",
+      slug: "gst-annual-return",
+      description: "GST annual return filing and compliance management for businesses"
     },
     {
-      name: "ROC Annual Return Filing",
-      slug: "roc-annual-return-filing",
-      description: "Registrar of Companies annual return filing for all company types"
+      name: "Income Tax Returns", 
+      slug: "income-tax-returns",
+      description: "Individual and corporate income tax return filing with expert guidance"
     },
     {
-      name: "Board Resolution Services",
-      slug: "board-resolution-services",
-      description: "Professional board meeting minutes and resolution drafting services"
-    },
-    {
-      name: "Statutory Audit Services",
-      slug: "statutory-audit-services",
-      description: "Mandatory statutory audit services for companies as per compliance requirements"
-    },
-    {
-      name: "Annual General Meeting",
-      slug: "annual-general-meeting",
-      description: "AGM organization and compliance management for companies and LLPs"
+      name: "TDS Returns",
+      slug: "tds-returns",
+      description: "Tax Deducted at Source return filing and compliance management for businesses"
     }
   ];
 

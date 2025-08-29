@@ -1,0 +1,50 @@
+# Replit Prompt: Synchronize Registrations in Service Pages & Simplify Appointment Form Services List
+
+---
+
+## 1. Update Individual Service Pages Registrations
+
+- For all major service category pages (e.g., NGO Services, Employee Benefits, Licenses & Registrations, etc.) under `client/src/pages/services/`:
+  - **Remove or update registration lists** inside these pages to reflect the latest global taxonomy.
+  - Example:  
+    - NGO Services page should show only **one registration**: "Trust Registration as per Income Tax" (no old registrations like NGO Registration or others).
+    - Employee Benefits, Licenses sections, etc., must match current service listings exactly.
+  - The "Learn More" links on the homepage or navigation should land on pages with **correct, updated registrations only**—no outdated or removed entries.
+
+- Verify consistency of registration lists and descriptions inside each individual page with the global updated service taxonomy.
+
+---
+
+## 2. Simplify Appointment Booking Form Services List
+
+- **Remove registrations from the appointment booking form's service select/dropdown list.**
+- Instead of showing individual registrations, show only the **main service categories** (total 8 services), for example:  
+  1. Business Registration  
+  2. GST  
+  3. Licenses & Registrations  
+  4. NGO Services  
+  5. Accounting & Tax  
+  6. Mandatory Annual Filings  
+  7. Changes in Private Limited Company  
+  8. Employee Benefits  
+
+- This simplifies the user experience when booking appointments by presenting broad service categories rather than detailed registrations.
+
+---
+
+## 3. Global Consistency & QA
+
+- Ensure these updates reflect on all devices and in all relevant UI components:
+  - Homepage service detail pages
+  - Header navigation dropdown pages
+  - Booking modal/service select form
+  - Mobile menus and More dropdown
+
+- Test all navigation links and booking form service list behavior for correctness and user-friendliness.
+
+---
+
+**Summary:**  
+Update all individual service pages to show only their current valid registrations.  
+Simplify appointment booking service list to display main service categories only, removing detailed registrations from booking form.  
+Ensure full site-wide consistency with the latest taxonomy definitions and test navigation thoroughly.
