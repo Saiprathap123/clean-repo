@@ -93,6 +93,7 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
         { name: "Authorized Capital Changes", slug: "authorized-capital-changes", isPage: false },
         { name: "Company Closure & Strike Off", slug: "company-closure-strike-off", isPage: false },
         { name: "Company Profile Changes", slug: "company-profile-changes", isPage: false },
+        { name: "All Private Company Changes", slug: "private-company-changes", isPage: true },
       ]
     },
     {
@@ -101,6 +102,7 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
         { name: "Designated Partner Management", slug: "designated-partner-management", isPage: false },
         { name: "Amend LLP Agreement", slug: "amend-llp-agreement", isPage: false },
         { name: "Close LLP", slug: "close-llp", isPage: false },
+        { name: "All LLP Changes", slug: "llp-changes", isPage: true },
       ]
     }
   ];
@@ -141,7 +143,7 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
               </div>
             </div>
 
-            {/* GST & Indirect Tax Dropdown */}
+            {/* GST Dropdown */}
             <div className="relative group">
               <Link 
                 href="/services/gst-tax-services"

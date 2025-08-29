@@ -1,0 +1,63 @@
+# Replit Prompt: Recall and Globally Apply All Updates to Registrations and Services Across the Site
+
+---
+
+## Full Summary of Required Updates to Services & Registrations (Global Application)
+
+### 1. Rename Service Category  
+- Rename **"GST & Indirect Taxes"** to **"GST"** everywhere across the site—header, homepage services section, dropdowns, mobile menu, service pages, and metadata.
+
+### 2. Business Registration Services  
+- **Remove**:  
+  - "Nidhi Company Registration"  
+  - "Producer Company Registration"  
+- **Move**:  
+  - "Section 8 Company Registration" from NGO Services → Business Registration (place after Partnership Firm Registration).
+
+### 3. Licenses & Registrations  
+- **Remove**:  
+  - "IEC (Import/Export Code)"  
+  - "Leave & LTA Policy"
+
+### 4. "More" Tab Services Detailing  
+- Under both **Accounting & Tax** and **Mandatory Annual Filings**, list and display **all individual registrations and service items** consistently as per prior instructions.
+
+### 5. Employee Benefits Service  
+- **Move** "Payroll Compliance" and "Employee Tax Planning" from Licenses & Registrations → Employee Benefits.
+
+### 6. NGO Services  
+- Remove **"NGO Registration"** service.  
+- Rename **"Trust Registration"** to **"Trust Registration as per Income Tax"** (remaining as only NGO service).
+
+### 7. Mandatory Annual Filings  
+- **Move** "TDS Returns" from Employee Benefits → Mandatory Annual Filings.  
+- List under Mandatory Filings:  
+  - ROC  
+  - GST  
+  - Income Tax Returns  
+  - TDS Returns
+
+### 8. Consolidate Paired Registrations  
+- Merge logical pairs like **Add/Remove Director**, **Increase/Decrease Capital**, etc., into **single comprehensive services** with combined names and pages, updating all references and navigation accordingly.
+
+### 9. AI Assistant Button  
+- Enhance AI floating action button with label, pulsing animation, and welcome popup globally across pages.
+
+---
+
+## Instructions for Replit
+
+- **Scan all relevant files and sections:** header navigation, landing page services section, individual service pages in `client/src/pages/services/`, mobile nav, More dropdowns, booking form services list (likely `BookingModal.tsx`).
+- **Update all references in text, navigation arrays, routing, and page content** to reflect these changes globally.
+- **Ensure consistency** in service naming, order, and inclusion/exclusion across all site areas.
+- **Create or consolidate pages for any newly merged or renamed services**, maintaining existing routes with redirects if needed.
+- **Test thoroughly** that rendered service lists, navigation menus, and booking form options are fully up-to-date site-wide.
+- **Fix any broken or missing routes** for affected services and registrations.
+- Use the updated **header navigation data as the single source of truth**.
+  
+---
+
+**Urgency:**  
+Complete these global updates coherently and fully. Partial updates only in the header are insufficient. Deliver a consistent, polished, and fully synchronized CA platform with all changes fully implemented everywhere.
+
+**Confirm completion with a detailed report of updated files and tested sections.**

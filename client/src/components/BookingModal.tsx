@@ -267,6 +267,7 @@ export default function BookingModal({ isOpen, onClose }: BookingModalProps) {
                           <SelectItem value="roc-filings">ROC</SelectItem>
                           <SelectItem value="annual-compliance-services">Annual Compliance Services</SelectItem>
                           <SelectItem value="llp-annual-filings">LLP Annual Filings</SelectItem>
+                          <SelectItem value="tds-returns">TDS Returns</SelectItem>
                           <SelectItem value="monthly-returns">Monthly Returns</SelectItem>
                           <SelectItem value="payroll-compliance">Payroll Compliance</SelectItem>
                           <SelectItem value="employee-tax-planning">Employee Tax Planning</SelectItem>
@@ -275,9 +276,11 @@ export default function BookingModal({ isOpen, onClose }: BookingModalProps) {
                           <SelectItem value="authorized-capital-changes">Authorized Capital Changes</SelectItem>
                           <SelectItem value="company-closure-strike-off">Company Closure & Strike Off</SelectItem>
                           <SelectItem value="company-profile-changes">Company Profile Changes</SelectItem>
+                          <SelectItem value="private-company-changes">All Private Company Changes</SelectItem>
                           <SelectItem value="designated-partner-management">Designated Partner Management</SelectItem>
                           <SelectItem value="amend-llp-agreement">Amend LLP Agreement</SelectItem>
                           <SelectItem value="close-llp">Close LLP</SelectItem>
+                          <SelectItem value="llp-changes">All LLP Changes</SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage />
