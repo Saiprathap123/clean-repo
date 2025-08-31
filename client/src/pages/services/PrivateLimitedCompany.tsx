@@ -101,6 +101,50 @@ export default function PrivateLimitedCompany() {
         </div>
       </section>
 
+      {/* Key Requirements Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-white mb-12 text-center">Key Requirements for Private Limited Company</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-dark-secondary rounded-xl p-8">
+              <h3 className="text-xl font-bold text-white mb-6">Minimum Requirements</h3>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-center gap-3">
+                  <CheckCircle className="h-5 w-5 text-accent-grey flex-shrink-0" />
+                  Minimum 2 shareholders
+                </li>
+                <li className="flex items-center gap-3">
+                  <CheckCircle className="h-5 w-5 text-accent-grey flex-shrink-0" />
+                  Minimum 2 directors
+                </li>
+                <li className="flex items-center gap-3">
+                  <CheckCircle className="h-5 w-5 text-accent-grey flex-shrink-0" />
+                  Minimum paid-up capital as per MCA guidelines
+                </li>
+              </ul>
+            </div>
+            
+            <div className="bg-dark-secondary rounded-xl p-8">
+              <h3 className="text-xl font-bold text-white mb-6">Compliance Requirements</h3>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-center gap-3">
+                  <CheckCircle className="h-5 w-5 text-accent-grey flex-shrink-0" />
+                  Books should be maintained as per income tax act
+                </li>
+                <li className="flex items-center gap-3">
+                  <CheckCircle className="h-5 w-5 text-accent-grey flex-shrink-0" />
+                  Annual filing with MCA
+                </li>
+                <li className="flex items-center gap-3">
+                  <CheckCircle className="h-5 w-5 text-accent-grey flex-shrink-0" />
+                  Audit by chartered accountant
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
